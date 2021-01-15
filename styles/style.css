@@ -13,28 +13,30 @@ body {
   padding: 3%;
 }
 
-section {
+aside {
   text-align: center;
 }
-section p {
+aside p {
   color: #a3a5ae;
   max-width: 45%;
   margin: auto;
   line-height: 3rem;
 }
 
-h2 {
+h1 {
   font-size: 4rem;
 }
 
-h2:nth-of-type(1) {
-  margin-top: 5rem;
+span {
+  display: block;
+}
+
+.heading-primary-main {
   font-weight: 200;
   color: #4c4e61;
 }
 
-h2:nth-of-type(2) {
-  margin-top: -3rem;
+.heading-primary-sub {
   color: #4c4e61;
 }
 
@@ -50,7 +52,7 @@ h2:nth-of-type(2) {
   background-color: white;
   padding: 3.5rem;
   border-radius: 1rem;
-  box-shadow: 7px 11px 32px -4px rgba(125, 125, 125, 0.87);
+  box-shadow: 7px 11px 32px -4px rgba(125, 125, 125, 0.3);
 }
 .card-wrapper > div h3 {
   font-size: 2.5rem;
@@ -107,7 +109,7 @@ h2:nth-of-type(2) {
   }
 }
 @media only screen and (max-width: 968px) {
-  section p {
+  aside p {
     max-width: 60%;
   }
 }
